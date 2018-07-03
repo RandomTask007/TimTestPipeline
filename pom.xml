@@ -30,12 +30,11 @@
     <artifactId>mockTestProxyTemplate</artifactId>
     <version>1.0</version>
     <name>${proxyName}</name>
-    <name>mockTestProxy-demo</name>
     <packaging>pom</packaging>
 
     <profiles>
         <profile>
-            <id>prod</id>
+            <id>production</id>
             <build>
             </build>
         </profile>
