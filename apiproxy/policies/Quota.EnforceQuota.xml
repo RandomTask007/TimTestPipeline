@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="Quota.EnforceQuota">
+    <DisplayName>Quota.EnforceQuota</DisplayName>
+    <Properties/>
+    <Allow countRef="verifyapikey.verify-api-key.apiproduct.developer.quota.limit" count="10000"/>
+    <Interval ref="verifyapikey.verify-api-key.apiproduct.developer.quota.interval">1</Interval>
+    <TimeUnit ref="verifyapikey.verify-api-key.apiproduct.developer.quota.timeunit">month</TimeUnit>
+    <!-- USE WITH ACCESS_TOKEN 
+    <Allow countRef="apiproduct.developer.quota.limit" count="10000"/>
+    <Interval ref="apiproduct.developer.quota.interval">1</Interval>
+    <TimeUnit ref="apiproduct.developer.quota.timeunit">month</TimeUnit>
+     -->
+    <Distributed>true</Distributed>
+    <Synchronous>false</Synchronous>
+</Quota>

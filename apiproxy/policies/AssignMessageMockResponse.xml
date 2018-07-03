@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessageMockResponse">
+    <DisplayName>AssignMessage.MockResponse</DisplayName>
+    <Set>
+        <Verb>GET</Verb>
+        <Payload contentType="application/json">
+            {"you are" : "amazing benjamin this is version number 3 smiley face smiley face"}
+            </Payload>
+    </Set>
+</AssignMessage>
