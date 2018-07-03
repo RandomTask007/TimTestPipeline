@@ -18,11 +18,11 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>apigee</groupId>
-	<artifactId>parent-pom</artifactId>
-	<packaging>pom</packaging>
-	<version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>apigee</groupId>
+    <artifactId>parent-pom</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
@@ -37,11 +37,11 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
-	<properties>
+    <properties>
             <main.basedir>${project.basedir}</main.basedir>
     </properties>
 
-	<build>
+    <build>
         <plugins>
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -93,13 +93,10 @@
                     </execution>
                 </executions>
             </plugin>
-		</plugins>
-	</build>
-<<<<<<< HEAD
-<!-- Production-->		
-=======
+        </plugins>
+    </build>
+<!-- Production-->      
 <!-- This is where you add the environment specific properties under various profile names-->
->>>>>>> 27096cde06c38f7bbcea013d50cf51d682eafaab
  <profiles>
         <profile>
             <id>prod</id>
@@ -116,7 +113,6 @@
                 <apigee.password>A11state#</apigee.password>
                 <apigee.options>${options}</apigee.options>
                 <!--apigee.override.delay>10</apigee.override.delay-->
-<<<<<<< HEAD
                 <!--apigee.delay>1000</apigee.delay-->                                  
             </properties>
         </profile> 
@@ -144,11 +140,9 @@
     </profiles>
 <!-- Staging-->  
     <profiles>
-=======
                 <!--apigee.delay>1000</apigee.delay-->
             </properties>
         </profile>
->>>>>>> 27096cde06c38f7bbcea013d50cf51d682eafaab
         <profile>
             <id>staging</id>
             <properties>

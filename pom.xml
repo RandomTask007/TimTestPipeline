@@ -29,7 +29,7 @@
     <groupId>apigee</groupId>
     <artifactId>mockTestProxyTemplate</artifactId>
     <version>1.0</version>
-    <name>$proxyName</name>
+    <name>${proxyName}</name>
     <name>mockTestProxy-demo</name>
     <packaging>pom</packaging>
 
