@@ -7,7 +7,7 @@
             "targets": []
         },
         {
-            "name": "production",
+            "name": "prod",
             "policies": [],
             "proxies": [],
             "targets": []
